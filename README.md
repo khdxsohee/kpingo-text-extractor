@@ -1,3 +1,5 @@
+# Kpingo Text Extractor – Chrome Extension
+Kpingo Text Extractor is a sleek, efficient, and user-friendly Chrome Extension that lets you instantly extract plain text from any webpage.
 This Chrome Extension is a clean and easy-to-use tool that allows you to instantly extract plain text from any webpage in just one click.
 
 ### 🔹 Key Features:
@@ -12,9 +14,9 @@ This Chrome Extension is a clean and easy-to-use tool that allows you to instant
 
 Ideal for writers, researchers, and professionals who need to quickly capture and reuse content with ease.
 ### How to Use
-- Install the Extension from Chrome Web Store or load it manually via Developer Mode.
+- Install Kpingo Text Extractor via the Chrome Web Store or load it manually using Developer Mode.
 
-- Click the extension icon in the browser toolbar to open the popup.
+- Click the Kpingo icon in your browser toolbar.
 
 - Press the "Extract Text" button – the main text from the current page will appear.
 
