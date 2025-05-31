@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text Extractor</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      width: 320px;
+      height: 500px;
+      padding: 16px;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    body.dark {
+      background: #1e1e1e;
+      color: #ddd;
+    }
+
+    h3 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    textarea {
+      width: 100%;
+      height: 280px;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      resize: none;
+      font-size: 14px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      background: #fff;
+      color: #000;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    body.dark textarea {
+      background: #2c2c2c;
+      color: #fff;
+    }
+
+    #wordCount {
+      margin: 10px 0;
+      font-size: 13px;
+      text-align: right;
+      color: #777;
+    }
+
+    body.dark #wordCount {
+      color: #aaa;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      font-size: 14px;
+      border: none;
+      border-radius: 6px;
+      background: #4a90e2;
+      color: white;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+    }
+
+    button:hover {
+      background: #357abd;
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
+
+    body.dark button {
+      background: #3a70c9;
+    }
+  </style>
+</head>
+<body>
+  <h3>📝 Extracted Text</h3>
+  <textarea id="output" readonly></textarea>
+  <div id="wordCount">Words: 0</div>
+  <button id="extractBtn">🔍 Extract Text</button>
+  <button id="copyBtn">📋 Copy to Clipboard</button>
+  <button id="downloadBtn">💾 Download as .txt</button>
+  <button id="toggleDark">🌙 Toggle Dark Mode</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
