@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Text Extractor",
+  "name": "Kpingo-Text Extractor",
   "version": "1.0",
   "description": "Extract visible text from the current page",
   "permissions": ["scripting", "activeTab"],
